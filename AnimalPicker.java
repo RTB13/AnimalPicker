@@ -17,9 +17,7 @@ public class AnimalPicker {
             } else if (choice.equals("cat")) {
                 System.out.println("CAT ASCII ART HERE");
                 break;
-            } else {
-            	System.out.println("Invalid choice. Please select cat or dog.");
-            }
+            } 
     	}
     }
 }
