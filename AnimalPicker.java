@@ -11,6 +11,9 @@ public class AnimalPicker {
             System.out.println("(\\,--------\'()\'--o\n (_    ___    /~\"\n  (_)_)  (_)_)");
         } else if (choice.equals("cat")) {
         	System.out.println("|\\---/|\n| o_o |\n \\_^_/");
+        
+        } else if (choice.equals("fish")) {
+        	System.out.println("/\"*._         _\n      .-*\'`    `*-.._.-\'/\n    < * ))     ,       ( \n      `*-._`._(__.--*\"`.\\");
         } else {
             System.out.println("Invalid choice! Please choose either 'dog' or 'cat'.");
         }        
