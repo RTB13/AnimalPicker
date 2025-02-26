@@ -8,12 +8,13 @@ public class AnimalPicker {
         String choice = scanner.nextLine().toLowerCase();
         
         if (choice.equals("dog")) {
-            System.out.println("DOG ASCII ART HERE");
+            System.out.println("(\\,--------\'()\'--o\n (_    ___    /~\"\n  (_)_)  (_)_)");
         } else if (choice.equals("cat")) {
-            System.out.println("CAT ASCII ART HERE");
+        	System.out.println("|\\---/|\n| o_o |\n \\_^_/");
         } else {
             System.out.println("Invalid choice! Please choose either 'dog' or 'cat'.");
         }        
         scanner.close();
+        
     }
 }
